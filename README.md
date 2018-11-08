@@ -2,7 +2,7 @@
 A service that links two Ethereum chains for ERC20 and native exchange
 
 # Prerequisites
-This simple token portal requires a bridge contract for each chain to be deployed. 
+This simple token portal requires a set of bridge portal contracts for each chain to be deployed. 
 Currently, only ERC20 and native tokens are supported. The portal contracts can be found at 
 
 https://github.com/0xMithril/BridgeableToken
@@ -38,4 +38,6 @@ FOREIGN_PORTAL_CONTRACT=<0xBridgePortalERC20Contract>
 # ERC20
 TOKEN_CONTRACT=<mainnet-ERC20-address>
 ```
+and then fire it up:
 
+```node index.js```
